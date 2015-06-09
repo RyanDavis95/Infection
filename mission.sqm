@@ -1,0 +1,1693 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"a3_map_stratis",
+		"A3_Characters_F_Mark",
+		"A3_Characters_F_Gamma",
+		"A3_Modules_F_Curator_Effects",
+		"A3_Modules_F_Effects",
+		"A3_Weapons_F_Ammoboxes",
+		"A3_Soft_F_MRAP_01",
+		"A3_Data_F_Curator_Characters"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_Mark",
+		"a3_characters_f",
+		"A3_Modules_F_Curator_Effects",
+		"A3_Characters_F_BLUFOR",
+		"A3_Data_F_Curator_Characters",
+		"A3_Weapons_F_Ammoboxes",
+		"A3_Soft_F_MRAP_01",
+		"a3_map_stratis"
+	};
+	randomSeed=10564704;
+	class Intel
+	{
+		resistanceWest=0;
+		startWeather=0.28;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.25;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		year=2035;
+		month=4;
+		day=20;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=57;
+		class Item0
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3769.6504,12.242365,7943.3716};
+					azimut=-472.44501;
+					id=0;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_3";
+					description="zombie";
+				};
+			};
+		};
+		class Item1
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3766.2412,11.50456,7944.6533};
+					azimut=-838.40869;
+					id=1;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_1";
+					description="zombie";
+				};
+			};
+		};
+		class Item2
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3768.6265,11.500987,7945.4609};
+					azimut=-836.54803;
+					id=2;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="zom1";
+					description="zombie";
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3772.4175,14.856965,7934.7969};
+					azimut=-507.74799;
+					class args
+					{
+						items=2;
+						class Item0
+						{
+							value="Mediterranean";
+							parentCls="ModulePostprocess_F";
+							typeName="Template";
+						};
+						class Item1
+						{
+							value="0";
+							parentCls="ModulePostprocess_F";
+							typeName="CommitTime";
+						};
+					};
+					id=3;
+					side="LOGIC";
+					vehicle="ModulePostprocess_F";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item4
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3765.8455,10.170088,7951.3389};
+					azimut=-471.51965;
+					id=4;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_1_1";
+					description="zombie";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3776.4692,15.975663,7924.5718};
+					azimut=-843.84698;
+					id=5;
+					side="WEST";
+					vehicle="B_Soldier_A_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.40000001;
+					description="survivor";
+				};
+			};
+		};
+		class Item6
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3764.3804,10.488229,7948.5576};
+					azimut=-731.65198;
+					id=6;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="zom1_1";
+					description="zombie";
+				};
+			};
+		};
+		class Item7
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3767.6421,10.869766,7947.563};
+					azimut=-827.81824;
+					id=7;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="zom1_2";
+					description="zombie";
+				};
+			};
+		};
+		class Item8
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3763.5708,10.153203,7950.4736};
+					azimut=-472.43353;
+					id=8;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="zom1_3";
+					description="zombie";
+				};
+			};
+		};
+		class Item9
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3765.2676,10.992864,7946.52};
+					azimut=-743.388;
+					id=9;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="zombie";
+				};
+			};
+		};
+		class Item10
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3766.6741,10.497989,7949.376};
+					azimut=-839.11865;
+					id=10;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="zom1_1_1";
+					description="zombie";
+				};
+			};
+		};
+		class Item11
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3781.71,16.84313,7922.6216};
+					azimut=-837.88202;
+					id=11;
+					side="WEST";
+					vehicle="B_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+					description="survivor";
+				};
+			};
+		};
+		class Item12
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3774.5896,15.506339,7928.2646};
+					azimut=-123.534;
+					id=12;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.40000001;
+					description="survivor";
+				};
+			};
+		};
+		class Item13
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3783.6428,17.07534,7918.8071};
+					azimut=-839.68201;
+					id=13;
+					side="WEST";
+					vehicle="B_soldier_M_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.40000001;
+					description="survivor";
+				};
+			};
+		};
+		class Item14
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3780.4272,17.192589,7917.4043};
+					azimut=-840.71899;
+					id=14;
+					side="WEST";
+					vehicle="B_soldier_AR_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.44999999;
+					description="survivor";
+				};
+			};
+		};
+		class Item15
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3778.6794,16.960333,7920.6333};
+					azimut=-479.371;
+					id=15;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.40000001;
+					description="survivor";
+				};
+			};
+		};
+		class Item16
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3777.4148,15.748159,7929.9355};
+					azimut=-475.901;
+					id=16;
+					side="WEST";
+					vehicle="B_soldier_LAT_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.44999999;
+					description="survivor";
+				};
+			};
+		};
+		class Item17
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3779.575,16.353291,7926.3438};
+					azimut=-475.901;
+					id=17;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+					description="survivor";
+				};
+			};
+		};
+		class Item18
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5026.4502,208.78386,5914.9692};
+					azimut=-721.73901;
+					id=18;
+					side="WEST";
+					vehicle="b_soldier_unarmed_f";
+					leader=1;
+					skill=0.60000002;
+					init="this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this;";
+					description="zombie";
+				};
+			};
+		};
+		class Item19
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3767.3105,12.135857,7942.4561};
+					azimut=-839.841;
+					id=19;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_1_2";
+					description="zombie";
+				};
+			};
+		};
+		class Item20
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5026.4053,208.7623,5912.4917};
+					azimut=-721.73901;
+					id=20;
+					side="WEST";
+					vehicle="b_soldier_unarmed_f";
+					leader=1;
+					skill=0.60000002;
+					init="this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this;";
+					description="zombie";
+				};
+			};
+		};
+		class Item21
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1980.9857,2.6518073,3528.6138};
+					azimut=-721.73901;
+					id=21;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item22
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1979.8075,2.6449537,3528.6138};
+					azimut=-721.73901;
+					id=22;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_2";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item23
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1978.3286,2.6343212,3528.5635};
+					azimut=-721.73901;
+					id=23;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_3";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item24
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1976.9249,2.6284344,3528.6138};
+					azimut=-721.73901;
+					id=24;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_4";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item25
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1974.9447,2.6604302,3528.5884};
+					azimut=-721.73901;
+					id=25;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_5";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item26
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1980.8102,2.6867683,3529.917};
+					azimut=-721.73901;
+					id=26;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_6";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item27
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1979.632,2.6790369,3529.917};
+					azimut=-721.73901;
+					id=27;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_2_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item28
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1978.1531,2.6628649,3529.8667};
+					azimut=-721.73901;
+					id=28;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_3_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item29
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1976.7494,2.6568792,3529.917};
+					azimut=-721.73901;
+					id=29;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_4_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item30
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1974.7692,2.686409,3529.8916};
+					azimut=-721.73901;
+					id=30;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_5_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item31
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1980.735,2.7194917,3531.1206};
+					azimut=-721.73901;
+					id=31;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_7";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item32
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1979.5568,2.7113843,3531.1206};
+					azimut=-721.73901;
+					id=32;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_2_2";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item33
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1978.0779,2.6952126,3531.0703};
+					azimut=-721.73901;
+					id=33;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_3_2";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item34
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1976.6742,2.6835847,3531.1206};
+					azimut=-721.73901;
+					id=34;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_4_2";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item35
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1974.694,2.7155583,3531.0952};
+					azimut=-721.73901;
+					id=35;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_5_2";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item36
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5035.0688,208.87219,5912.5957};
+					azimut=-721.73901;
+					id=36;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item37
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5033.8906,208.8604,5912.5957};
+					azimut=-721.73901;
+					id=37;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_2_3";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item38
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5032.4116,208.84547,5912.5454};
+					azimut=-721.73901;
+					id=38;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_3_3";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item39
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5031.0078,208.83305,5912.5957};
+					azimut=-721.73901;
+					id=39;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_4_3";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item40
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5029.0278,208.81313,5912.5703};
+					azimut=-721.73901;
+					id=40;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_5_3";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item41
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5034.8931,208.8717,5913.8989};
+					azimut=-721.73901;
+					id=41;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_6_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item42
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5033.7148,208.86189,5913.8989};
+					azimut=-721.73901;
+					id=42;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_2_1_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item43
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5032.2358,208.84698,5913.8486};
+					azimut=-721.73901;
+					id=43;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_3_1_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item44
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5030.8325,208.83598,5913.8989};
+					azimut=-721.73901;
+					id=44;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_4_1_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item45
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5028.8521,208.81789,5913.8735};
+					azimut=-721.73901;
+					id=45;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_5_1_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item46
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5034.8179,208.87114,5915.1025};
+					azimut=-721.73901;
+					id=46;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_7_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item47
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5033.6396,208.8623,5915.1025};
+					azimut=-721.73901;
+					id=47;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_2_2_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item48
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5032.1606,208.84924,5915.0522};
+					azimut=-721.73901;
+					id=48;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_3_2_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item49
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5030.7573,208.83844,5915.1025};
+					azimut=-721.73901;
+					id=49;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_4_2_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item50
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5028.7769,208.82317,5915.0771};
+					azimut=-721.73901;
+					id=50;
+					side="GUER";
+					vehicle="I_ghillie_sard_F";
+					leader=1;
+					skill=0.60000002;
+					text="zom_1_4_4_6_1_2_2_2_1_1_1_1_4_5_2_1";
+					init="this setVariable [""selections"", []];  this setVariable [""gethit"", []];this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this; this addEventHandler [""Killed"", {_this spawn inf_fnc_zomKilled;}]; this addEventHandler[""HandleDamage"", { _this call inf_fnc_onDamage;}];";
+					description="zombie";
+				};
+			};
+		};
+		class Item51
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5025.1719,208.75867,5915.0444};
+					azimut=-721.73901;
+					id=51;
+					side="WEST";
+					vehicle="b_soldier_unarmed_f";
+					leader=1;
+					skill=0.60000002;
+					init="this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this;";
+					description="zombie";
+				};
+			};
+		};
+		class Item52
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5025.127,208.72807,5912.5669};
+					azimut=-721.73901;
+					id=52;
+					side="WEST";
+					vehicle="b_soldier_unarmed_f";
+					leader=1;
+					skill=0.60000002;
+					init="this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this;";
+					description="zombie";
+				};
+			};
+		};
+		class Item53
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1970.5909,2.8134148,3531.2739};
+					azimut=-721.73901;
+					id=53;
+					side="WEST";
+					vehicle="b_soldier_unarmed_f";
+					leader=1;
+					skill=0.60000002;
+					init="this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this;";
+					description="zombie";
+				};
+			};
+		};
+		class Item54
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1970.546,2.8012516,3528.7964};
+					azimut=-721.73901;
+					id=54;
+					side="WEST";
+					vehicle="b_soldier_unarmed_f";
+					leader=1;
+					skill=0.60000002;
+					init="this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this;";
+					description="zombie";
+				};
+			};
+		};
+		class Item55
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1969.3126,2.8201823,3531.3491};
+					azimut=-721.73901;
+					id=55;
+					side="WEST";
+					vehicle="b_soldier_unarmed_f";
+					leader=1;
+					skill=0.60000002;
+					init="this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this;";
+					description="zombie";
+				};
+			};
+		};
+		class Item56
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1969.2677,2.8080192,3528.8716};
+					azimut=-721.73901;
+					id=56;
+					side="WEST";
+					vehicle="b_soldier_unarmed_f";
+					leader=1;
+					skill=0.60000002;
+					init="this addEventHandler [""Hit"",{ if (alive (_this select 0)) then {[_this, ""infS_fnc_handleXP"", false] call BIS_fnc_MP;};}]; removeallweapons this;";
+					description="zombie";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=4;
+		class Item0
+		{
+			position[]={5016.4067,208.60803,5919.0605};
+			id=57;
+			side="EMPTY";
+			vehicle="Box_NATO_AmmoOrd_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={1980.4896,2.2286532,3513.0015};
+			id=58;
+			side="EMPTY";
+			vehicle="Box_NATO_AmmoOrd_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={1984.9063,2.4566212,3517.9141};
+			id=59;
+			side="EMPTY";
+			vehicle="B_MRAP_01_F";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={5018.1484,208.78638,5930.2358};
+			azimut=-181.80594;
+			id=60;
+			side="EMPTY";
+			vehicle="B_MRAP_01_F";
+			skill=0.60000002;
+		};
+	};
+	class Markers
+	{
+		items=44;
+		class Item0
+		{
+			position[]={3769.4189,13.411319,7938.9326};
+			name="respawn_guerrila";
+			type="Empty";
+			angle=-334.15799;
+		};
+		class Item1
+		{
+			position[]={5025.6494,208.45958,5943.5894};
+			name="area0_surv_0";
+			type="Empty";
+		};
+		class Item2
+		{
+			position[]={5030.6592,208.77138,5940.7271};
+			name="area0_surv_1";
+			type="Empty";
+		};
+		class Item3
+		{
+			position[]={5034.2378,208.83885,5937.6255};
+			name="area0_surv_2";
+			type="Empty";
+		};
+		class Item4
+		{
+			position[]={5036.9814,208.86893,5934.0464};
+			name="area0_surv_3";
+			type="Empty";
+		};
+		class Item5
+		{
+			position[]={5032.3296,208.909,5931.3032};
+			name="area0_surv_4";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={5030.4209,208.94569,5934.6431};
+			name="area0_surv_5";
+			type="Empty";
+		};
+		class Item7
+		{
+			position[]={5027.9312,208.86949,5937.7515};
+			name="area0_surv_6";
+			type="Empty";
+		};
+		class Item8
+		{
+			position[]={5024.4561,208.66869,5939.0571};
+			name="area0_surv_7";
+			type="Empty";
+		};
+		class Item9
+		{
+			position[]={5019.208,208.56842,5938.8179};
+			name="area0_surv_8";
+			type="Empty";
+		};
+		class Item10
+		{
+			position[]={5014.3169,208.55064,5938.5796};
+			name="area0_surv_9";
+			type="Empty";
+		};
+		class Item11
+		{
+			position[]={5012.7661,208.42851,5942.8735};
+			name="area0_surv_10";
+			type="Empty";
+		};
+		class Item12
+		{
+			position[]={5037.1011,208.93074,5926.2935};
+			name="area0_surv_11";
+			type="Empty";
+		};
+		class Item13
+		{
+			position[]={3771.7151,14.788889,7934.3066};
+			name="respawn_west";
+			type="Empty";
+			angle=-334.15799;
+		};
+		class Item14
+		{
+			position[]={5041.4121,209.01711,5897.1792};
+			name="area0_zom_0";
+			type="Empty";
+			angle=-79.445198;
+		};
+		class Item15
+		{
+			position[]={5041.2192,208.93361,5893.5996};
+			name="area0_zom_1";
+			type="Empty";
+			angle=305.3898;
+		};
+		class Item16
+		{
+			position[]={5041.4058,208.82065,5889.4878};
+			name="area0_zom_2";
+			type="Empty";
+			angle=-78.938347;
+		};
+		class Item17
+		{
+			position[]={5036.5073,208.82162,5887.4233};
+			name="area0_zom_4";
+			type="Empty";
+			angle=320.96564;
+		};
+		class Item18
+		{
+			position[]={5025.4785,208.50603,5887.4922};
+			name="area0_zom_5";
+			type="Empty";
+			angle=1.7289513;
+		};
+		class Item19
+		{
+			position[]={5021.3403,208.37367,5887.7417};
+			name="area0_zom_6";
+			type="Empty";
+			angle=0.90169364;
+		};
+		class Item20
+		{
+			position[]={5017.0806,208.13725,5887.8506};
+			name="area0_zom_7";
+			type="Empty";
+			angle=-40.698463;
+		};
+		class Item21
+		{
+			position[]={5012.7725,207.96327,5888.3569};
+			name="area0_zom_8";
+			type="Empty";
+			angle=10.769879;
+		};
+		class Item22
+		{
+			position[]={1942.4004,2.8085253,3557.9482};
+			name="area1_zom_0";
+			type="Empty";
+			angle=130.00293;
+		};
+		class Item23
+		{
+			position[]={1964.1873,3.1058624,3565.7646};
+			name="area1_zom_1";
+			type="Empty";
+			angle=166.57983;
+		};
+		class Item24
+		{
+			position[]={1990.6687,4.9320731,3568.3887};
+			name="area1_zom_2";
+			type="Empty";
+			angle=177.34293;
+		};
+		class Item25
+		{
+			position[]={2025.2616,4.5611787,3563.021};
+			name="area1_zom_3";
+			type="Empty";
+			angle=221.15346;
+		};
+		class Item26
+		{
+			position[]={1940.8073,2.9382446,3531.5298};
+			name="area1_zom_4";
+			type="Empty";
+			angle=144.91345;
+		};
+		class Item27
+		{
+			position[]={2035.1622,3.103195,3533.9155};
+			name="area1_zom_5";
+			type="Empty";
+			angle=627.69824;
+		};
+		class Item28
+		{
+			position[]={2032.4255,5.4183846,3498.9258};
+			name="area1_zom_6";
+			type="Empty";
+			angle=-74.264854;
+		};
+		class Item29
+		{
+			position[]={2004.3867,4.3822546,3480.4751};
+			name="area1_zom_7";
+			type="Empty";
+			angle=-25.194592;
+		};
+		class Item30
+		{
+			position[]={1958.4615,2.3601046,3477.6128};
+			name="area1_zom_8";
+			type="Empty";
+			angle=20.482452;
+		};
+		class Item31
+		{
+			position[]={1941.0458,3.2216532,3504.2134};
+			name="area1_zom_9";
+			type="Empty";
+			angle=78.10276;
+		};
+		class Item32
+		{
+			position[]={1996.3154,2.868629,3531.562};
+			name="area1_surv_0";
+			type="Empty";
+			angle=254.44632;
+		};
+		class Item33
+		{
+			position[]={2004.7493,2.8354368,3529.835};
+			name="area1_surv_1";
+			type="Empty";
+			angle=246.69012;
+		};
+		class Item34
+		{
+			position[]={2005.6085,2.2830944,3506.6621};
+			name="area1_surv_2";
+			type="Empty";
+			angle=263.06339;
+		};
+		class Item35
+		{
+			position[]={1982.373,1.8253236,3496.6479};
+			name="area1_surv_3";
+			type="Empty";
+			angle=-1.9804856;
+		};
+		class Item36
+		{
+			position[]={1968.7979,3.1775012,3541.1489};
+			name="area1_surv_4";
+			type="Empty";
+			angle=182.99451;
+		};
+		class Item37
+		{
+			position[]={1977.7406,2.8983474,3541.4243};
+			name="area1_surv_5";
+			type="Empty";
+			angle=172.14574;
+		};
+		class Item38
+		{
+			position[]={1989.5162,2.8275602,3536.7539};
+			name="area1_surv_6";
+			type="Empty";
+			angle=206.05869;
+		};
+		class Item39
+		{
+			position[]={1987.4822,1.9751685,3497.4888};
+			name="area1_surv_7";
+			type="Empty";
+			angle=337.43515;
+		};
+		class Item40
+		{
+			position[]={2005.5608,2.3922346,3512.1831};
+			name="area1_surv_8";
+			type="Empty";
+			angle=256.66788;
+		};
+		class Item41
+		{
+			position[]={1989.5763,1.9677572,3504.8726};
+			name="area1_surv_9";
+			type="Empty";
+			angle=-46.910046;
+		};
+		class Item42
+		{
+			position[]={5039.5864,208.80515,5887.5908};
+			name="area0_zom_3";
+			type="Empty";
+			angle=320.966;
+		};
+		class Item43
+		{
+			position[]={5013.355,208.06958,5892.6851};
+			name="area0_zom_9";
+			type="Empty";
+			angle=-280.47101;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3765.4404,13.735042,7932.6392};
+			a=0;
+			b=0;
+			activationBy="ALPHA";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="nul = [] execVM ""LxOPS\lxOPS.sqf"";";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=3640450;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=11284939;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=1031589;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
